@@ -49,21 +49,21 @@
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
-#ifndef LZ_Detector_hh
-#define LZ_Detector_hh 1
+#ifndef LZ_Detector_2024hh
+#define LZ_Detector_2024hh 1
 
 #include "VDetector.hh"
 
 using namespace std;
 
-class LZ_Detector : public VDetector {
+class LZ_Detector_2024 : public VDetector {
  public:
-  LZ_Detector() {
+  LZ_Detector_2024() {
 
     // Call the initialisation of all the parameters
     Initialization();
   };
-  ~LZ_Detector() override = default;
+  ~LZ_Detector_2024() override = default;
 
   // Do here the initialization of all the parameters that are not varying as a
   // function of time
